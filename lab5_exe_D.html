@@ -2,8 +2,8 @@
 =========================================================
 Name        : lab5_exe_D.html
 Assignment  : Lab 5, Exercise D
-Author(s)   : Mahdi Ansari, William Arthur Philip Louis
-Submission  : May 21, 2030
+Author(s)   : Manbir Briar, Samiul Haque
+Submission  : February 14, 2024
 Description : Arrays and functions.
 =========================================================
 -->
@@ -54,6 +54,11 @@ Description : Arrays and functions.
 				padding: 5px;
                 text-align: left;
 			}
+			/* added for error message*/
+			caption {
+    			white-space: nowrap;
+			}
+
 		</style>
         <!-- Linking the JavaScript file -->
 		<script src="matrix.js" lang="JavaScript"></script>
@@ -76,6 +81,7 @@ Description : Arrays and functions.
 			<div id="matrix1"></div>
 			<div id="matrix2"></div>
             <div id="matrix3"><!--Show the result matrix here--></div>
+			<div id="error-message"></div>
 		</div>
 		<footer>
 			<button onclick="performOperation('add')">Add</button>
